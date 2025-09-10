@@ -2,6 +2,10 @@
 # Resevasi Klinik Kecantikan
 Fauzia Inanta Aurelia/2409116044/Sistem Informasi'B
 
+![WhatsApp Image 2025-09-10 at 18 59 01_e2b4a810](https://github.com/user-attachments/assets/96d301a4-9ed1-4c4e-805a-e96096158d2f)
+
+
+
 ## 1. Deskripsi
 Program ini ialah aplikasi Java untuk melakukan sebuah program CRUD sederhana untuk mengelola resevasi di Klinik Kecantikan. Program ini dibuat hanya dibuat terdiri dari satu file yaitu Main.Java. Data yang terdapat di resevasi ini disimpan di 'ArrayList'. 
 
