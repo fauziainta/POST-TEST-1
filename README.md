@@ -1,9 +1,15 @@
-# POST-TEST-1 
+# POSTTEST-PBO-1 
 # Resevasi Klinik Kecantikan
 Fauzia Inanta Aurelia/2409116044/Sistem Informasi'B
 
 ## 1. Deskripsi
-Program ini ialah sebuah  program CRUD sederhana untuk mengelola resevasi di Klinik Kecantikan.
+Program ini ialah aplikasi Java untuk melakukan sebuah program CRUD sederhana untuk mengelola resevasi di Klinik Kecantikan. Program ini dibuat hanya dibuat terdiri dari satu file yaitu Main.Java. Data yang terdapat di resevasi ini disimpan di 'ArrayList'. 
+
+Properti yang digunakan:
+- Nama customer
+- Tanggal reservasi
+- Waktu reservasi (dipilih dari daftar yang tersedia)
+- Layanan kecantikan (dipilih dari daftar layanan yang sudah ditentukan)
 
 ## 2. Fitur utama yang tersedia:
 - Tambah Reservasi : Admin dapat menambahkan data reservasi (nama customer, tanggal, waktu tersedia, dan layanan tersedia).
@@ -15,13 +21,27 @@ Program ini ialah sebuah  program CRUD sederhana untuk mengelola resevasi di Kli
 ## 3. Alur Program
 a. Saat dijalankan, user akan melihat **menu utama** dengan 5 pilihan.  
 b. **Tambah Reservasi**  
-   - Input nama customer dan tanggal.  
-   - Pilih waktu dari list yang tersedia.  
-   - Pilih layanan dari list yang tersedia.  
-   - Data disimpan dalam `ArrayList`.  
-c. **Lihat Reservasi** akan menampilkan seluruh data reservasi.  
-d. **Ubah Reservasi** dilakukan dengan memilih nomor reservasi, lalu mengubah tanggal, waktu, atau layanan.  
-e. **Hapus Reservasi** dilakukan dengan memilih nomor reservasi untuk dihapus.  
+   - User memilih menu Tambah Reservasi.
+   - user memiminta input nama customer.
+   - User meminta input tanggal reservasi.
+   - Program menampilkan daftar waktu reservasi yang tersedia, lalu user memilih salah satunya.
+   - Program menampilkan daftar layanan kecantikan yang tersedia, lalu user memilih salah satunya.
+
+c. **Lihat Reservasi** 
+   - Program menampilkan daftar semua data reservasi yang tersimpan (nama customer, tanggal, waktu, dan layanan).
+   - Jika belum ada data, program menampilkan pesan bahwa daftar reservasi masih kosong.
+     
+d. **Ubah Reservasi** 
+   - Program menampilkan daftar reservasi yang sudah ada.
+   - User memilih nomor reservasi yang ingin diubah.
+   - Program meminta input data baru (nama, tanggal, waktu, dan layanan).
+   - Data lama diganti dengan data baru sesuai input user, lalu ditampilkan pesan konfirmasi bahwa reservasi berhasil diubah.
+   - 
+e. **Hapus Reservasi**
+   - Program menampilkan daftar reservasi yang ada.
+   - User memilih nomor reservasi yang ingin dihapus.
+   - Data tersebut dihapus dari ArrayList, lalu ditampilkan pesan konfirmasi bahwa reservasi berhasil dihapus.
+   - 
 f. **Keluar** dilakukan untuk mengakhiri program.
 
 ## 4. Tampilan Output
@@ -34,6 +54,24 @@ b. Tambah Reservasi
 - <img width="401" height="496" alt="image" src="https://github.com/user-attachments/assets/2774c743-27b3-496b-b86f-e73849c597f6" />
 
 c. Lihat Reservasi
+   - Data yang sudah diinput akan tersimpan di 'ArrayList'. dan tampilan akan seperti ini.
+   - <img width="710" height="222" alt="image" src="https://github.com/user-attachments/assets/81b25a0d-6413-4ca8-babe-549ee5a4afd4" />
+
+d. Ubah Reservasi
+   - User dapat mengubah reservasi customer dengan memilih no reservasi customer lalu ubah tanggal waktu dan layanannya
+   - <img width="770" height="628" alt="image" src="https://github.com/user-attachments/assets/4a348686-f2d6-4843-abe8-1a2decd267b3" />
+
+e. Hapus Reservasi
+   - User dapat menghapus data reservasi jika reservasi batal atau tidak valid.
+   - <img width="765" height="290" alt="image" src="https://github.com/user-attachments/assets/7d168076-b562-4e40-9272-d8b222939886" />
+
+f. Keluar
+   - User dapat keluar dari program jika sudah selesai digunakan.
+   - <img width="480" height="171" alt="image" src="https://github.com/user-attachments/assets/10684c01-2a6f-4762-9a03-8afbeb8c914d" />
+
+
+
+
 
 
 
