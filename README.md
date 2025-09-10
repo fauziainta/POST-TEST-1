@@ -40,12 +40,12 @@ d. **Ubah Reservasi**
    - User memilih nomor reservasi yang ingin diubah.
    - Program meminta input data baru (nama, tanggal, waktu, dan layanan).
    - Data lama diganti dengan data baru sesuai input user, lalu ditampilkan pesan konfirmasi bahwa reservasi berhasil diubah.
-   - 
+     
 e. **Hapus Reservasi**
    - Program menampilkan daftar reservasi yang ada.
    - User memilih nomor reservasi yang ingin dihapus.
    - Data tersebut dihapus dari ArrayList, lalu ditampilkan pesan konfirmasi bahwa reservasi berhasil dihapus.
-   - 
+     
 f. **Keluar** dilakukan untuk mengakhiri program.
 
 ## 4. Tampilan Output
