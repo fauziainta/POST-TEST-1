@@ -22,7 +22,10 @@ b. **Tambah Reservasi**
 c. **Lihat Reservasi** akan menampilkan seluruh data reservasi.  
 d. **Ubah Reservasi** dilakukan dengan memilih nomor reservasi, lalu mengubah tanggal, waktu, atau layanan.  
 e. **Hapus Reservasi** dilakukan dengan memilih nomor reservasi untuk dihapus.  
-f. **Keluar** dilakukan untuk mengakhiri program.  
+f. **Keluar** dilakukan untuk mengakhiri program.
+
+## 4. Pejelasan Output
+
 
 
 
