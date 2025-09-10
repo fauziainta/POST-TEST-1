@@ -24,8 +24,16 @@ d. **Ubah Reservasi** dilakukan dengan memilih nomor reservasi, lalu mengubah ta
 e. **Hapus Reservasi** dilakukan dengan memilih nomor reservasi untuk dihapus.  
 f. **Keluar** dilakukan untuk mengakhiri program.
 
-## 4. Pejelasan Output
+## 4. Tampilan Output
+a. Menu Utama
+   - Tampilan pertama pada user akan menampilkan pilhian **menu utama**
+- <img width="409" height="150" alt="image" src="https://github.com/user-attachments/assets/3e514084-d1e8-45b0-b40f-4f95b0287383" />
 
+b. Tambah Reservasi
+   - User menambahkan reservasi dengan memilih pilihan pada nomor 1, user akan menginput nama, tanggal, memilih waktu tersedia dan layanan yang tersedia.
+- <img width="401" height="496" alt="image" src="https://github.com/user-attachments/assets/2774c743-27b3-496b-b86f-e73849c597f6" />
+
+c. Lihat Reservasi
 
 
 
